@@ -53,3 +53,5 @@ kontena.ovpn
 
 particl1/testnet/*
 particl2/testnet/*
+app1/database/*
+app2/database/*
