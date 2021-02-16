@@ -1,0 +1,55 @@
+# Logs #
+/logs
+*.log
+*.log*
+
+# Downloaded images
+data/images/*
+
+# Node files #
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.test
+.env.blackbox
+
+# OS generated files #
+.DS_Store
+Thumbs.db
+.Trash*
+
+# Typing #
+typings/
+
+# Dist #
+dist/
+
+# IDE #
+.idea/
+*.swp
+.awcache
+
+# Generated source-code #
+src/**/*.js
+src/**/*.js.map
+test/**/*.js
+test/**/*.js.map
+coverage/
+!test/preprocessor.js
+
+test/testdata/test.json
+test/reports/*
+
+*.paw
+
+codeship*.yml
+.scannerwork
+
+kontena.ovpn
+
+.env.docker-compose.app1
+.env.docker-compose.app2
+
+particl1/testnet/*
+particl2/testnet/*
